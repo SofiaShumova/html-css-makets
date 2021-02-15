@@ -1,0 +1,45 @@
+@import url(header-block.css);
+@import url(nav.css);
+@import url(item.css);
+.main {
+    flex-grow: 2;
+    background-color: #E5E5E5;
+    padding: 0 40px 40px;
+}
+
+.main__courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__courses-item {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 40px 40px 40px 35px;
+}
+
+.main__courses-item:first-child {
+    width: 100%;
+    background: url(../../img/main-section/ui-illustration.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 263px;
+    margin-top: 36px;
+}
+
+.main__courses-item:nth-child(2) {
+    background: url(../../img/main-section/photography-illustration.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 211px;
+    margin-top: 42px;
+    margin-right: 42px;
+}
+
+.main__courses-item:nth-child(3) {
+    background: url(../../img/main-section/animation-illustration.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 211px;
+    margin-top: 42px;
+}

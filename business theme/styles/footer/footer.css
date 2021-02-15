@@ -1,0 +1,21 @@
+.footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background-color: rgb(112, 157, 202);
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+}
+
+.footer__text {
+    margin: 0;
+}
+
+.Rectangle_8 {
+    position: absolute;
+    left: -3px;
+    top: 6055px;
+    width: 1705px;
+    height: 49px;
+    z-index: 20;
+}

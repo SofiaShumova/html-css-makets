@@ -1,0 +1,44 @@
+.main__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.main__nav-header {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #011F3B;
+}
+
+.main__nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.main__nav-item {
+    padding: 6px 0;
+    margin-right: 51px;
+}
+
+.main__nav-item:last-child {
+    margin-right: 0;
+}
+
+.main__nav-item_selected,
+.main__nav-item:hover {
+    background: url(../../img/main-section/line.svg) no-repeat center bottom;
+}
+
+.main__nav-link {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(118, 132, 146, 0.8);
+}
+
+.main__nav-link_selected,
+.main__nav-link:hover {
+    color: #5E81F4;
+}

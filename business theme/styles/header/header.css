@@ -1,0 +1,12 @@
+@import url(menu/menu.css);
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0;
+    margin:0;
+    font-family: Lato;
+    color: #868686;
+    width: 1170px;
+    margin: auto;
+}

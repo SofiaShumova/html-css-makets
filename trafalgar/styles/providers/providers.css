@@ -1,0 +1,22 @@
+.container.providers {
+    margin-bottom: 229px;
+}
+
+.providers {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.providers__line {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.providers__image {
+    margin-right: 137px;
+}
+
+.providers__button {
+    margin-top: 37px;
+}

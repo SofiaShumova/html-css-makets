@@ -1,0 +1,24 @@
+.container.download {
+    margin-bottom: 251px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.download__line {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.download__block {
+    margin-right: 71px;
+}
+
+.download__button {
+    margin-top: 40px;
+}
+
+.download__image {}

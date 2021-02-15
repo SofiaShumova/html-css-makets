@@ -1,0 +1,24 @@
+@import url(item.css);
+.price{
+    color: rgb(57, 75, 80);
+    text-align: center;
+    padding-top: 137px;
+    background-color: rgb(231, 237, 243);
+    padding-bottom: 194px;
+}
+.price__header{
+ color: #394b50;
+}
+.price__text{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    color: #75888d;
+}
+.price__list{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-top: 80px;
+}

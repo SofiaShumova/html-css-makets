@@ -1,0 +1,62 @@
+.header {}
+
+.header__nav,
+.header__nav-block,
+.header__nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    justify-content: space-between;
+}
+
+.header__nav-logo {}
+
+.header__nav-block {}
+
+.header__nav-list {
+    margin-right: 40px;
+}
+
+.header__nav-item {
+    margin-right: 45px;
+    padding: 9px 0;
+}
+
+.header__nav-item:last-child {
+    margin-right: 0;
+}
+
+.header__nav-item_selected {
+    background: url(../../img/header/selected-ellipse.svg) no-repeat;
+    background-position: center bottom;
+}
+
+.header__nav-link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #035755;
+}
+
+.header__nav-link_selected {
+    color: #FB4C47;
+}
+
+.header__nav-button {
+    padding: 15px 45px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FF383D;
+    border: 2px solid #FB4C47;
+    border-radius: 46px;
+}
+
+.header__nav-button:hover {
+    background-color: #FF383D;
+    color: white;
+}

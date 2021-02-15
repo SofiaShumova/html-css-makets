@@ -1,0 +1,29 @@
+@import url(item.css);
+.services{
+    padding-top: 203px;
+    color: rgb(57, 75, 80);
+    text-align: center;
+    width: 1170px;
+    margin: auto;
+    padding-bottom: 147px;
+}
+/* .services__header{
+} */
+.services__text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+
+}
+/* .services-box{
+    
+} */
+.services-box__list{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr)r;
+    grid-gap: 66px 58px;
+    margin-top: 93px;
+}

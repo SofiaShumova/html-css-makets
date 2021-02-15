@@ -1,0 +1,73 @@
+@import url(progress-item.css);
+.right {
+    /* width: 24%; */
+    padding: 43px 40px 56px 32px;
+}
+
+.right__profile {
+    display: flex;
+    align-items: center;
+}
+
+.right__profile-photo {
+    margin-right: 26px;
+}
+
+.right__profile-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* 3 */
+    color: #011F3B;
+    margin-right: 27px;
+}
+
+.right__profile-arrow {}
+
+.right__progress {
+    margin-top: 72px;
+}
+
+.right__progress-header {
+    margin-bottom: 31px;
+}
+
+.right__progress-list {}
+
+.right__tasks-header {
+    margin-top: 64px;
+}
+
+.right__tasks-list {
+    margin-top: 31px;
+}
+
+.right__contact {
+    width: 312px;
+    height: 204px;
+    background: url(../../img/right/bg-contact.svg) no-repeat;
+    background-size: 100% 100%;
+    padding: 21px 0px 0 26px;
+    margin-top: 74px;
+}
+
+.right__contact-header {
+    margin-bottom: 26px;
+}
+
+.right__contact-group {
+    display: flex;
+}
+
+.contact-group__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.contact-group__item-icon {}

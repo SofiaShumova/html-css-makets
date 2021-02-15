@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap');
+@import url(header/header.css);
+@import url(services/services.css);
+@import url(providers/providers.css);
+@import url(download/download.css);
+@import url(customers/customers.css);
+@import url(article/article.css);
+@import url(footer/footer.css);
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.header-text {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 156%;
+    color: #000000;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 167%;
+    color: #7D7987;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    background-color: white;
+    padding: 0 51px;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    border: #458FF6 solid 0.5px;
+    border-radius: 55px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation-duration: 1s;
+}
+
+.button:hover::before {
+    animation-name: hvr-ripple-out;
+    animation-duration: 1.5s;
+}
+
+.line {
+    width: 56px;
+    height: 2px;
+    margin-bottom: 33px;
+    margin-top: 26px;
+    background: #000000;
+    border-radius: 5px;
+    padding: 0;
+    border: 0;
+}
+
+@keyframes hvr-ripple-out {
+    100% {
+        top: -20px;
+        right: -20px;
+        bottom: -20px;
+        left: -20px;
+        opacity: 0;
+    }
+}

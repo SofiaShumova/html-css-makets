@@ -1,0 +1,31 @@
+@import url(header/header.css);
+@import url(fonts/fonts.css);
+@import url(main/main.css);
+@import url(services/services.css);
+@import url(about/about.css);
+@import url(price/price.css);
+@import url(works/works.css);
+@import url(clients//clients.css);
+@import url(newsletter/newsletter.css);
+@import url(footer/footer.css);
+body {
+    margin: 0;
+}
+
+.header-text {
+    font-family: 'Gotham Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    z-index: 3;
+}

@@ -1,0 +1,50 @@
+.progress-item,
+.tasks-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 27px;
+}
+
+.progress-item:last-child {
+    margin-bottom: 0;
+}
+
+.progress-item__desc-block,
+.tasks-item__desc-block {
+    display: flex;
+    align-items: center;
+}
+
+.progress-item__block-icon,
+.tasks-item__block-icon {
+    display: flex;
+    /* background: #EEF2FD; */
+    border-radius: 6px;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 19px;
+}
+
+.progress-item__desc-block:first-child {
+    margin-right: 38px;
+}
+
+.progress-item__icon,
+.tasks-item__icon {}
+
+.progress-item__header,
+.tasks-item__header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.progress-item__text,
+.tasks-item__text {
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #83919E;
+}

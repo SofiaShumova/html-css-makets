@@ -1,0 +1,28 @@
+@import url(client-item.css);
+.clients{
+    background-color: rgb(255, 193, 85);
+    color: white;
+    text-align: center;
+    padding-top: 141px;
+    padding-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .clients__header{
+   
+} */
+.clients__text{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    margin: 0;
+}
+.clients__list{
+    width: 1170px;
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px 35px;
+}

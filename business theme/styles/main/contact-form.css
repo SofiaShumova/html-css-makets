@@ -1,0 +1,39 @@
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    /* padding: 15px; */
+    border-radius: 2px;
+    width: 281px;
+    height: 46px;
+    margin-right: 10px;
+}
+
+.input-box__icon {
+    width: 13px;
+    height: 15px;
+    margin: 15px;
+}
+
+.input-box__input {
+    border: 0px;
+}
+
+.contact-form__button {
+    text-transform: uppercase;
+    background-color: rgb(255, 187, 66);
+    border-radius: 2px;
+    width: 211px;
+    height: 46px;
+    color: white;
+    border: 0;
+}
+
+.contact-form__button:hover {
+    background-color: rgb(231, 173, 72);
+}

@@ -1,0 +1,36 @@
+.left__nav-item {
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+    height: 32px;
+}
+
+.left__nav-item_selected,
+.left__nav-item:hover {
+    border-style: solid;
+    border-color: #5E81F4;
+    border-width: 0 3px 0 0;
+}
+
+.left__nav-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+}
+
+.left__nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8DA1B5;
+}
+
+.left__nav-item:hover+.left__nav-link,
+.left__nav-link:hover {
+    color: #46515C;
+}
+
+.left__nav-link_selected {
+    font-weight: 600;
+    color: #272829;
+}

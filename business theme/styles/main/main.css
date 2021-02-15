@@ -1,0 +1,17 @@
+@import url(contact-form.css);
+@import url(laptop-box.css);
+
+.main{
+    background-color:#6699cc;
+    text-align: center;
+    padding: 110px 0 0 0;
+    color: white;
+}
+.main__header{
+}
+.main__text{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 0;
+}

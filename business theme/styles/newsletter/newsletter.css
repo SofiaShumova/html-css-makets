@@ -1,0 +1,44 @@
+@import url(map.css);
+@import url(navigation.css);
+.newsletter {
+    text-align: center;
+    line-height: 0.733;
+    padding-top: 154px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter__header {
+    color: rgb(57, 75, 80);
+}
+
+.newsletter__text {
+    font-weight: 300;
+    color: #394b50;
+    font-size: 16px;
+    margin: 10px 0 38px 0;
+}
+
+.newsletter__input-box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(203, 203, 203);
+    border-radius: 2px;
+    width: 392px;
+    height: 51px;
+}
+
+.newsletter__button {
+    width: 218px;
+    height: 47px;
+}
+
+.newsletter__button:hover {
+    background-color: rgb(231, 173, 72);
+}
+
+.newsletter__contact-form {
+    align-items: center;
+}

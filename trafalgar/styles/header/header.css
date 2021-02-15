@@ -1,0 +1,44 @@
+@import url(block.css);
+.header {
+    padding-top: 56px;
+    padding-bottom: 190px;
+    background: url(../../img/element.svg) no-repeat left 20%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__logo-text {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #233348;
+    margin-left: 12px;
+}
+
+.header-nav__nav {}
+
+.header-nav__nav-item {
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 0.5;
+    margin-right: 40px;
+}
+
+.header-nav__nav-item:last-child {
+    margin-right: 0px;
+}
+
+.header-nav__nav-item:hover {
+    font-weight: bold;
+    opacity: 1;
+}

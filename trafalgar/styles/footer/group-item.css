@@ -1,0 +1,27 @@
+.footer__group-item {
+    margin-right: 80px;
+}
+
+.footer__group-item:last-child {
+    margin-right: 0;
+}
+
+.group-item__list-links {
+    list-style-type: none;
+}
+
+.list-links__header-link {}
+
+.header-link__link {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.list-links__common-link {}
+
+.common-link__link {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+}

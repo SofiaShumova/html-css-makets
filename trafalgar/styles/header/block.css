@@ -1,0 +1,74 @@
+.header-block {
+    display: flex;
+}
+
+.text-section {}
+
+.text-section__header {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 117%;
+    color: #000000;
+    margin-top: 186px;
+    margin-bottom: 25px;
+}
+
+.text-section__text {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 152%;
+    color: #7D7987;
+    margin-bottom: 45px;
+}
+
+.text-section__button {
+    background: #458FF6;
+    border-radius: 55px;
+    padding: 0px 40px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    line-height: 333%;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.text-section__button::before {
+    content: '';
+    position: absolute;
+    border: #458FF6 solid 6px;
+    border-radius: 55px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation-duration: 1s;
+}
+
+.text-section__button:hover::before {
+    animation-name: hvr-ripple-out;
+    animation-duration: 1.5s;
+}
+
+.text-section__grid-image {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+}
+
+.header-illustration {
+    width: 693px;
+    height: 598px;
+    padding-top: 84px;
+    padding-left: 109px;
+}
+
+@keyframes hvr-ripple-out {
+    100% {
+        top: -20px;
+        right: -20px;
+        bottom: -20px;
+        left: -20px;
+        opacity: 0;
+    }
+}

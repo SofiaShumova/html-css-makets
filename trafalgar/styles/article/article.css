@@ -1,0 +1,20 @@
+@import url(item.css);
+.article {
+    text-align: center;
+    padding-bottom: 310px;
+    background: url(../../img/article/bg-article.jpg) no-repeat right center, url(../../img/element.svg) no-repeat 23% 16%, url(../../img/element.svg) no-repeat 95% 105%;
+}
+
+.article__header {}
+
+.line.article__line {
+    margin-bottom: 79px;
+}
+
+.article__list {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 69px;
+}
+
+.article__button {}

@@ -1,0 +1,7 @@
+const blocksIconProgress = document.querySelectorAll('.progress-item__block-icon')
+const blocksIconTasks = document.querySelectorAll('.tasks-item__block-icon')
+blocksIconProgress[0].setAttribute('style', 'background: #EEF2FD;')
+blocksIconProgress[1].setAttribute('style', 'background: #D5F5FB;')
+blocksIconProgress[2].setAttribute('style', 'background: #FFEFD6;')
+blocksIconTasks[0].setAttribute('style', 'background: #EEF2FD;')
+blocksIconTasks[1].setAttribute('style', 'background: #FFEFD6;')

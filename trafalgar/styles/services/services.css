@@ -1,0 +1,27 @@
+@import url(item.css);
+.services {
+    text-align: center;
+    background-image: url(../../img/bg-service.svg);
+    background-repeat: no-repeat;
+    background-position: -500px -300px;
+    background-size: 70%;
+    margin-bottom: 220px;
+}
+
+.services__header {}
+
+.services__line {}
+
+.services__text {}
+
+.service {
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../../img/element.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 55%;
+    padding-bottom: 70px;
+}
+
+.services__button {}

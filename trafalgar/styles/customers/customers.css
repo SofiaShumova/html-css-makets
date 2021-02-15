@@ -1,0 +1,74 @@
+@import url(nav.css);
+.customers {
+    margin-bottom: 216px;
+    background: url(../../img/element.svg) no-repeat;
+    background-position: 20% 65%;
+}
+
+.customers__block {
+    text-align: center;
+    color: white;
+    background: url(../../img/bg-image-customers.svg) no-repeat 104% -6%, linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    padding: 64px 0 79px;
+}
+
+.customers__block-header {}
+
+.line.customers__line {
+    /* border-color: white;
+    color: white; */
+    background-color: white;
+    border: 0;
+    margin-top: 25px;
+    margin-bottom: 77px;
+}
+
+.customers__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.customers__person-data {
+    display: flex;
+    align-items: center;
+    margin-right: 110px;
+}
+
+.customers__person-image {
+    clip-path: circle(70px at center);
+    margin-right: 29px;
+}
+
+.customers__person-info {
+    width: 185px;
+}
+
+.customers__person-name {
+    /* mix-blend-mode: normal; */
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+}
+
+.customers__person-about {
+    font-weight: normal;
+    font-size: 18px;
+    /* identical to box height, or 267% */
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.customers__card-text {
+    text-align: left;
+    width: 420px;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    /* or 158% */
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.customers__bg-image {}

@@ -1,0 +1,56 @@
+@import url(group-item.css);
+.footer .container {
+    display: flex;
+}
+
+.footer {
+    background: url(../../img/element-footer.svg) no-repeat left bottom, linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: white;
+    padding-top: 124px;
+    padding-bottom: 113px;
+}
+
+.footer__about {
+    width: 391px;
+    margin-right: 145px;
+}
+
+.footer__about-company {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.footer__about-logo {
+    margin-right: 12px;
+}
+
+.footer__about-name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer__about-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    margin-top: 22px;
+    margin-bottom: 31px;
+}
+
+.footer__about-rights {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+}
+
+.footer__group-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}

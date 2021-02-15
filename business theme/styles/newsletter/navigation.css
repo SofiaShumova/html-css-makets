@@ -1,0 +1,38 @@
+.newsletter__navigation {
+    font-size: 13px;
+    font-family: "Lato";
+    color: rgb(57, 75, 80);
+    text-transform: uppercase;
+}
+
+.newsletter__navigation-phone,
+.navigation__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__social {
+    margin-top: 25px;
+}
+
+.newsletter__phone {
+    font-family: 'Lato', sans-serif;
+    font-size: 22.383px;
+    color: rgb(57, 75, 80);
+    line-height: 1.072;
+}
+
+.newsletter__phone-icon {
+    margin: 0 8px 0 0;
+}
+
+.navigation__social-icon {
+    margin-right: 17px;
+    width: 16px;
+    height: 16px;
+}
+
+.navigation__social-icon:active {
+    pointer-events: none;
+}

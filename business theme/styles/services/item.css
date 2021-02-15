@@ -1,0 +1,26 @@
+.services-box__item{
+    display: flex;
+    align-items: center;
+}
+.services-box__image{
+    width: 45px;
+    height: 46px;
+}
+.services-box__header{
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(57, 75, 80);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.services-box__text{
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(123, 123, 123);
+    margin-top: 21px;
+}
+.services-box__info-box{
+    text-align: start;
+    margin-left: 37px;
+}
